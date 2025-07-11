@@ -1,3 +1,15 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+html{
+    background-color: papayawhip;
+}
+
+.stack {
+    display: grid;
+    grid-template-areas: 'stack';
+}
+    .stack > * {
+        grid-area: stack;
+    }
